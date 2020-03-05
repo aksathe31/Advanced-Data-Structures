@@ -52,7 +52,7 @@ char ans;
 
    void tree::display(node *ptr)
     {
-        if(ptr!=NULL)
+        if(ptr==NULL)
         {
             return;
         }
